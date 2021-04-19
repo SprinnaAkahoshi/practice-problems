@@ -1,0 +1,3 @@
+function searchArray(haystack, needle) {
+
+}
