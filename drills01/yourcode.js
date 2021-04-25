@@ -31,4 +31,6 @@ function getAllNamesShorterThan(namesArray, nameLength) {
   return results;
 }
 
-function makeLabel(personObject) {}
+function makeLabel(personObject) {
+  return `${personObject.greeting} ${personObject.givenName} ${personObject.familyName}\n${personObject["home address"].streetNumber} ${personObject["home address"].streetName}\n${personObject["home address"].city}, ${personObject["home address"].state} ${personObject["home address"].zip}`;
+}
